@@ -37,3 +37,8 @@ npm install
 npm run dev
 
 The page will be available at http://localhost:5173 by default (or another port if 5173 is already in use).
+
+## 🖼️ Preview 
+
+![Product Detail Page Desktop](./product-page-result.png)
+
