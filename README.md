@@ -7,7 +7,11 @@ This project was developed as part of a **Frontend Developer Intern coding assig
 
 ## 🧩 Project Overview
 
-The objective of this test was to create a **functional, well-structured, and visually appealing product page** that retrieves product data from a given API endpoint and displays key product details.
+The objective of this assignment was to create a Product Detail Page that retrieves and displays product data from the given Rakuten API endpoint.
+
+API Endpoint: https://api-rakuten-vis.koyeb.app/product/<productId>
+
+For this implementation, the chosen product ID is: 13060247469 (Gaming CD).
 
 The page dynamically fetches and displays:
 - Product image, title, and brand  
@@ -17,16 +21,7 @@ The page dynamically fetches and displays:
 - Breadcrumb navigation and a static cart icon  
 - Friendly loading and error states  
 
-The result is a simple yet professional product page that matches real-world e-commerce standards in structure and UX.
-
 ---
-
-## 🌐 API Endpoint
-
-All product data is fetched from this endpoint:
-
-https://api-rakuten-vis.koyeb.app/product/
-
 
 To switch products, just edit the constant in `src/ProductPage.tsx`:
 const PRODUCT_ID = '13060247469'
@@ -34,9 +29,11 @@ const PRODUCT_ID = '13060247469'
 ## ⚙️ Installation & Setup
 
 1. Clone the repository
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/dinaosaure/product-page.git
+cd product-page/
 2. Install dependencies
 npm install
 3. Start the development server
 npm run dev
+
+The page will be available at http://localhost:5173 by default (or another port if 5173 is already in use).
