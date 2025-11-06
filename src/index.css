@@ -161,7 +161,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.reviews-title { font-weight: 700; margin-bottom: 10px; align-self: flex-start; }
+.reviews-title { font-weight: 700; margin-bottom: 10px; align-self: flex-start;text-align: center; width: 100%; }
 .reviews-list {
   display: grid;
   gap: 12px;
