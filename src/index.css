@@ -118,21 +118,29 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 8px 16px;
-  border-radius: 10px;
+  padding: 14px 28px;
+  border-radius: 12px;
   background: var(--c-red);
   color: #fff;
   font-weight: 700;
   text-decoration: none;
   line-height: 1;
   border: 1px solid rgba(0,0,0,.06);
-  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  font-size: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,.08);
   transition: background .18s ease, box-shadow .18s ease, transform .06s ease;
 }
 .buy-btn:hover { background: var(--c-red-dark); box-shadow: 0 3px 6px rgba(0,0,0,.15); }
 .buy-btn:active { transform: translateY(1px); }
 .buy-btn:focus-visible { outline: none; box-shadow: 0 0 0 3px rgba(229,57,53,.25); }
 .buy-btn.disabled { background: #ccc; box-shadow: none; cursor: not-allowed; pointer-events: none; }
+
+@media (max-width: 600px) {
+  .buy-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
 
 .divider { margin: 16px 0; }
 .meta-row { display: grid; grid-template-columns: 130px 1fr; gap: 12px; margin-bottom: 12px; }
